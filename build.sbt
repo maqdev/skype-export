@@ -1,5 +1,3 @@
-import AssemblyKeys._
-
 name := "skype-export"
 
 organization  := "com.github.maqdev"
@@ -20,5 +18,3 @@ libraryDependencies ++= {
     "com.google.guava" % "guava" % "16.0.1"
   )
 }
-
-Revolver.settings ++ assemblySettings
